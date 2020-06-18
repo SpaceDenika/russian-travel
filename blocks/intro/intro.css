@@ -1,0 +1,31 @@
+@import url(./__title/intro__title.css);
+@import url(./__text/intro__text.css);
+@import url(./__list/intro__list.css);
+@import url(./__list/_weight/intro__list_weight_bold.css);
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  min-height: 428px;
+  margin: 0 auto;
+  padding: 0 34.5% 92px 11.6%;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding: 0 27.93% 92px 4.69%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: 0 3.13% 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    padding: 0 5% 64px;
+  }
+}
