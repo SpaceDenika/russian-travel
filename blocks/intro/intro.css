@@ -1,13 +1,13 @@
 @import url(./__title/intro__title.css);
 @import url(./__text/intro__text.css);
 @import url(./__list/intro__list.css);
-@import url(./__list/_weight/intro__list_weight_bold.css);
+@import url(./__item/intro__item.css);
+@import url(./__span-accent/intro__span-accent.css);
 
 .intro {
   display: flex;
   flex-direction: column;
   max-width: 100%;
-  min-height: 428px;
   margin: 0 auto;
   padding: 0 34.5% 92px 11.6%;
 }
